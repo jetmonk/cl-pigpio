@@ -103,6 +103,8 @@ pigpio library returns an error.
 
 ### Dependencies
 
+Tested with 64 bit SBCL, on Bookworm.
+
 * [_cffi_](https://github.com/cffi/cffi)
 * [_pigpio_](https://github.com/joan2937/pigpio), which can be installed as a standard RPi Linux package.
 
