@@ -95,13 +95,13 @@ pointers.
 The high level routines also throw a descriptive Lisp error if the
 pigpio library returns an error.
 
-### Glitches and gotchas
+## Glitches and gotchas
 
 * pigpio does not work for RPi5 (yet?) because hardware interface is not documented
 * signals are turned off in the hardware version using `gpioCfgGetInternals()` to prevent clashes with any Lisp use of signals.
 
 
-### Dependencies
+## Dependencies
 
 Tested with 64 bit SBCL, on Bookworm.
 
