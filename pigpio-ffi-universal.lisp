@@ -26,7 +26,7 @@ a local hardware connection (pigpio) or a socket connection to a daemon (pigpiod
    #:open-pidev/hardware
    #:open-pidev/daemon
 
-   ;; the following functions 
+   ;; the following functions mirror pigpio C interface
    #:pigpio-gpiosetmode
    #:pigpio-gpiogetmode
    #:pigpio-gpiosetpullupdown
